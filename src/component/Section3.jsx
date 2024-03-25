@@ -1,3 +1,5 @@
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import 'react-lazy-load-image-component/src/effects/blur.css';
 // imported img
 import pjct_img_1 from "../assets/img/pjct_img_1.jpeg"
 import pjct_img_2 from "../assets/img/pjct_img_2.jpeg"
@@ -9,7 +11,6 @@ import "../assets/js/all.min.js"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-// import React, { Component } from "react";
 // custom css
 import "../assets/css/Section3.css"
 import { useState } from "react";
@@ -98,7 +99,7 @@ const [text,setText] = useState(true);
                             <div className="sec3_slider_item_wrapper px-5 py-4">
                                 <div className="sec3_slider_item  border border-gray-1 rounded-xl overflow-hidden hover:shadow-2xl hover:scale-100 md:hover:scale-105 lg:hover:scale-105 transition-all ease-linear duration-300">
                                     <div className="sec3_slider_item_img">
-                                        <img src={pjct_img_1} className="border h-[309px] w-full" alt="image" />
+                                        <LazyLoadImage effect="blur" src={pjct_img_1} className="border h-[309px] w-full" alt="image" />
                                         <div className="sec3_slider_item_img_ovrly"></div>
                                     </div>
                                     <div className="sec3_slider_item_txt ps-6 py-7">
@@ -121,7 +122,7 @@ const [text,setText] = useState(true);
                             <div className="sec3_slider_item_wrapper px-5 py-4">
                                 <div className="sec3_slider_item  border border-gray-1 rounded-xl overflow-hidden hover:shadow-2xl hover:scale-100 md:hover:scale-105 lg:hover:scale-105 transition-all ease-linear duration-300">
                                     <div className="sec3_slider_item_img">
-                                        <img src={pjct_img_2} className="border h-[309px] w-full" alt="image" />
+                                        <LazyLoadImage effect="blur" src={pjct_img_2} className="border h-[309px] w-full" alt="image" />
                                         <div className="sec3_slider_item_img_ovrly"></div>
                                     </div>
                                     <div className="sec3_slider_item_txt ps-6 py-7">
@@ -144,7 +145,7 @@ const [text,setText] = useState(true);
                             <div className="sec3_slider_item_wrapper px-5 py-4">
                                 <div className="sec3_slider_item  border border-gray-1 rounded-xl overflow-hidden hover:shadow-2xl hover:scale-100 md:hover:scale-105 lg:hover:scale-105 transition-all ease-linear duration-300">
                                     <div className="sec3_slider_item_img">
-                                        <img src={pjct_img_3} className="border h-[309px] w-full" alt="image" />
+                                        <LazyLoadImage effect="blur" src={pjct_img_3} className="border h-[309px] w-full" alt="image" />
                                         <div className="sec3_slider_item_img_ovrly"></div>
                                     </div>
                                     <div className="sec3_slider_item_txt ps-6 py-7">

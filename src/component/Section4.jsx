@@ -1,8 +1,14 @@
 // impored image
-import { useState } from "react";
 import sec4_img from "../assets/img/sec4_img.png";
+// import css
+import "../assets/css/Section4.css"
+// import Dependency
+import { useState } from "react";
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 const Section4 = () => {
     const [counterState, setCounterState] = useState(false);
     return (        
@@ -62,7 +68,7 @@ const Section4 = () => {
                         </div>
                         <div className="col lg:w-1/2">
                             <div className="sec4_img rounded-2xl overflow-hidden">
-                                <img src={sec4_img} className="w-full h-full" alt="image" />
+                                <LazyLoadImage effect="blur" src={sec4_img} className="w-full h-full" alt="image" />
                             </div>
                         </div>
                     </div>

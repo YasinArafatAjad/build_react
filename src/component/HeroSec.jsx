@@ -1,4 +1,6 @@
 
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import 'react-lazy-load-image-component/src/effects/blur.css';
 // image imported
 import hero_image from "../assets/img/img_1.png"
 
@@ -21,7 +23,7 @@ const HeroSec = () => {
                             </form>
                         </div>
                         <div className="hero_img relative w-full lg:flex justify-center items-center hidden">
-                            <img src={hero_image} alt="hero_image" className="absolute  right-11 h-full scale-[1.2]" />
+                            <LazyLoadImage effect="blur" src={hero_image} alt="hero_image" className="absolute  right-11 h-full scale-[1.2]" />
                         </div>
                     </div>
                 </div>
