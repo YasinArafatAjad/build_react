@@ -6,7 +6,7 @@ import ScrollTrigger from 'react-scroll-trigger';
 const Section4 = () => {
     const [counterState, setCounterState] = useState(false);
     return (        
-        <secttion id="section_4" className="section_4">
+        <section id="section_4" className="section_4">
             <div className="row title mb-11"> 
                 <div className="container">
                     <div className="col">
@@ -18,9 +18,9 @@ const Section4 = () => {
                     <div className="container flex flex-col-reverse lg:flex-row justify-between  gap-y-12">
                         <div className="col lg:w-[42%] max-w-[520px]">
                             <div className="sec4_txt">
-                                <h2 className="sec4_header text-black-1 font-poppins text-4xl lg:text-3xl not-italic font-semibold leading-[120%]">The transfer of real estate</h2>
-                                <p className="sec4_desc text-black-1 font-poppins text-base not-italic font-normal leading-[120%] mt-6">Lorem ipsum dolor sit amet consectetur. Feugiat ut aliquet sit pellentesque sollicitudin. Egestas faucibus lacus diam in senectus consectetur. Mattis elit adipiscing quisque tellus scelerisque vehicula ante nunc. Tellus consequat nisl quis nisl justo.</p>
-                                <div className="sec4-btn mt-6 flex gap-4">
+                                <h2 className="sec4_header text-black-1 font-poppins text-4xl text-center md:text-left lg:text-left lg:text-3xl not-italic font-semibold leading-[120%]">The transfer of real estate</h2>
+                                <p className="sec4_desc text-black-1 font-poppins text-base text-center md:text-left lg:text-left not-italic font-normal leading-[120%] mt-6">Lorem ipsum dolor sit amet consectetur. Feugiat ut aliquet sit pellentesque sollicitudin. Egestas faucibus lacus diam in senectus consectetur. Mattis elit adipiscing quisque tellus scelerisque vehicula ante nunc. Tellus consequat nisl quis nisl justo.</p>
+                                <div className="sec4-btn mt-6 flex gap-4 justify-center md:justify-start lg:justify-start lg:ms-2">
                                     <button type="submit" className="capitalize text-white-1 hover:text-text-heading-1 border border-text-heading-1 bg-text-heading-1 hover:bg-white-1 focus:ring-1 focus:outline-none focus:ring-gray-300 rounded-full px-5 py-3 text-center font-poppins text-base font-normal leading-[100%] lg:text-sm dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800 transition-all ease-linear duration-300">Book Now</button>
                                     <button type="submit" className="capitalize text-white-1 hover:text-text-heading-1 border border-text-heading-1 bg-text-heading-1 hover:bg-white-1 focus:ring-1 focus:outline-none focus:ring-gray-300 rounded-full px-5 py-3 text-center font-poppins text-base font-normal leading-[100%] lg:text-sm dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800 transition-all ease-linear duration-300">Read more</button>
                                 </div>
@@ -67,7 +67,7 @@ const Section4 = () => {
                         </div>
                     </div>
             </div>
-        </secttion>
+        </section>
     );
 };
 export default Section4;

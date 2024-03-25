@@ -2,6 +2,7 @@
 import msg_svg from "../assets/img/icon/messages.svg"
 import sms_svg from "../assets/img/icon/sms.svg"
 import edit2_svg from "../assets/img/icon/edit-2.svg"
+import { useState } from "react";
 const Section2 = () => {
     return (
         <section id="section_2" className="pt-28 mb-28 bg-white">
@@ -15,18 +16,18 @@ const Section2 = () => {
             </div>
             <div className="row sec2 ">
                 <div className="container">
-                    <div className="sec2_item_wrapper flex justify-center items-center gap-4 gap-y-8 flex-wrap px-[33px]">
-                        <div className="col max-w-[300px] hover:scale-105 transition-all ease-linear duration-300">
+                    <div className="sec2_item_wrapper flex justify-center items-center lg:gap-x-8 md:gap-x-4 gap-y-20 flex-wrap px-[33px]">
+                        <div className="col max-w-[300px] flex flex-col items-center md:items-center lg:items-start text-center lg:text-left lg:w-[250px] lg:ms-2 hover:scale-105 transition-all ease-linear duration-300">
                             <span className="sec2_item_icon"><img src={msg_svg} alt="icon" /></span>
                             <h2 className="sec2_item_header text-black-1 font-poppins text-3xl not-italic font-semibold leading-[120%] mt-6 ">Answer questions</h2>
-                            <p className="sec2_item_desc text-black-1 font-poppins text-base not-italic font-normal leading-[120%] mt-6">Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum in in vestibulum. </p>
+                            <p  className="sec2_item_desc text-black-1 font-poppins text-base not-italic font-normal leading-[120%] mt-6">Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum in in vestibulum. </p>
                         </div>
-                        <div className="col max-w-[300px] hover:scale-105 transition-all ease-linear duration-300">
+                        <div className="col max-w-[300px] flex flex-col items-center md:items-center lg:items-start text-center lg:text-left lg:w-[250px] lg:ms-2 hover:scale-105 transition-all ease-linear duration-300">
                             <span className="sec2_item_icon"><img src={sms_svg} alt="icon" /></span>
                             <h2 className="sec2_item_header text-black-1 font-poppins text-3xl not-italic font-semibold leading-[120%] mt-6 ">Select a quote</h2>
                             <p className="sec2_item_desc text-black-1 font-poppins text-base not-italic font-normal leading-[120%] mt-6">Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum in in vestibulum. </p>
                         </div>
-                        <div className="col max-w-[300px] hover:scale-105 transition-all ease-linear duration-300">
+                        <div className="col max-w-[300px] flex flex-col items-center md:items-center lg:items-start text-center lg:text-left lg:w-[250px] lg:ms-2 hover:scale-105 transition-all ease-linear duration-300">
                             <span className="sec2_item_icon"><img src={edit2_svg} alt="icon" /></span>
                             <h2 className="sec2_item_header text-black-1 font-poppins text-3xl not-italic font-semibold leading-[120%] mt-6 ">Get registered</h2>
                             <p className="sec2_item_desc text-black-1 font-poppins text-base not-italic font-normal leading-[120%] mt-6">Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum in in vestibulum. </p>

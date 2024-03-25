@@ -1,4 +1,3 @@
-
 import Nav from './component/Nav.jsx';
 import HeroSec from './component/HeroSec.jsx';
 import Section2 from './component/Section2.jsx';
@@ -18,5 +17,4 @@ const App = () => {
         </div>
     );
 };
-
 export default App;
