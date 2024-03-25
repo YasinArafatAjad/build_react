@@ -40,7 +40,7 @@ const Nav = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link onClick={()=>navHandler()} to="" spy={true} smooth={true} offset={50} duration={1000} className="flex items-center gap-3 p-2 text-text-heading-1 rounded-lg hover:ms-4 lg:hover:ms-0 active:text-secondery dark:text-white hover:text-secondery transition-all ease-linear duration-300 dark:hover:bg-gray-700">
+                                    <Link onClick={()=>navHandler()} to="/" spy={true} smooth={true} offset={50} duration={1000} className="flex items-center gap-3 p-2 text-text-heading-1 rounded-lg hover:ms-4 lg:hover:ms-0 active:text-secondery dark:text-white hover:text-secondery transition-all ease-linear duration-300 dark:hover:bg-gray-700">
                                         <span className="lg:hidden ">
                                             <i className="fa-solid fa-users"></i>
                                         </span>
@@ -48,7 +48,7 @@ const Nav = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link onClick={()=>navHandler()} to="section_3" spy={true} smooth={true} offset={50} duration={1000} className="flex items-center gap-3 p-2 text-text-heading-1 rounded-lg hover:ms-4 lg:hover:ms-0 active:text-secondery dark:text-white hover:text-secondery transition-all ease-linear duration-300 dark:hover:bg-gray-700">
+                                    <Link onClick={()=>navHandler()} to="section_4" spy={true} smooth={true} offset={50} duration={1000} className="flex items-center gap-3 p-2 text-text-heading-1 rounded-lg hover:ms-4 lg:hover:ms-0 active:text-secondery dark:text-white hover:text-secondery transition-all ease-linear duration-300 dark:hover:bg-gray-700">
                                         <span className="lg:hidden ">
                                             <i className="fa-solid fa-gift"></i>
                                         </span>
@@ -56,7 +56,7 @@ const Nav = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link onClick={()=>navHandler()} to="" spy={true} smooth={true} offset={50} duration={1000} className="flex items-center gap-3 p-2 text-text-heading-1 rounded-lg hover:ms-4 lg:hover:ms-0 active:text-secondery dark:text-white hover:text-secondery transition-all ease-linear duration-300 dark:hover:bg-gray-700">
+                                    <Link onClick={()=>navHandler()} to="/" spy={true} smooth={true} offset={50} duration={1000} className="flex items-center gap-3 p-2 text-text-heading-1 rounded-lg hover:ms-4 lg:hover:ms-0 active:text-secondery dark:text-white hover:text-secondery transition-all ease-linear duration-300 dark:hover:bg-gray-700">
                                         <span className="lg:hidden ">
                                             <i className="fa-solid fa-list-check"></i>
                                         </span>
@@ -77,7 +77,7 @@ const Nav = () => {
                             </ul>
                             <ul className="font-medium bg-gray-2 flex flex-col lg:flex-row items-center gap-y-2 lg:gap-[0.5vw] px-3 py-2 pb-[4.25rem] lg:pb-0 rounded-md lg:rounded-full">
                                 <li>
-                                    <Link onClick={()=>navHandler()} to="" spy={true} smooth={true} offset={50} duration={1000} className="inline-flex items-center gap-3 p-2 text-text-heading-1 rounded-lg dark:text-white hover:text-secondery dark:hover:bg-gray-700 transition-all ease-linear duration-500">
+                                    <Link onClick={()=>navHandler()} to="/" spy={true} smooth={true} offset={50} duration={1000} className="inline-flex items-center gap-3 p-2 text-text-heading-1 rounded-lg dark:text-white hover:text-secondery dark:hover:bg-gray-700 transition-all ease-linear duration-500">
                                         <span className="lg:hidden ">
                                             <i className="fa-solid fa-briefcase"></i>
                                         </span>
